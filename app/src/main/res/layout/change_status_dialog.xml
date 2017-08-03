@@ -1,0 +1,45 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/navigationBackground"
+        android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/statusDialog_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_settings_button"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/statusDialog_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/navigationBackground"/>
+
+    <EditText
+        android:id="@+id/statusDialog_edit_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_here_editText" />
+
+
+
+</LinearLayout>

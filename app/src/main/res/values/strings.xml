@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">LoginApplication</string>
+    <string name="user_name_editText">User name</string>
+    <string name="password_editText">Password </string>
+    <string name="login_button">Login</string>
+    <string name="not_a_member_yet_textView">Not a member yet?</string>
+    <string name="email_editText">Email</string>
+    <string name="already_registred_textView">Already registred! Login Me.</string>
+    <string name="register_button">Register</string>
+    <string name="confirm_password_editText">Confirm Password</string>
+    <string name="name_textView">Full name</string>
+    <string name="all_users_item">All Users</string>
+    <string name="delete_user_item">Delete Profile</string>
+    <string name="profile_image">User profile image</string>
+    <string name="icon_description">Navigation Drawer List Icons</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="comments_section_textView">Comments section</string>
+    <string name="welcome">Welcome</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">OK</string>
+    <string name="delete_user_dialog">Delete Profile?</string>
+    <string name="sing_up"><u>Sign Up</u></string>
+    <string name="noTitle">NoTitle</string>
+
+    <string name="year_textView">Year:</string>
+    <string name="duration_textView">Duration:</string>
+    <string name="director_textView">Director:</string>
+    <string name="cast_textView">Cast:</string>
+    <string name="change_settings_button">Change</string>
+    <string name="close_settings_button">Close</string>
+    <string name="type_here_editText">Type Here..</string>
+    <string name="check_to_delete_dialog">Are you sure you want to delete your profile?</string>
+    <string name="no_dialog">NO</string>
+    <string name="yes_dialog">YES</string>
+    <string name="fill_the_field_toast">Please fill the field</string>
+    <string name="user_name_exists_toast">Username already exists</string>
+    <string name="password_exists_toast">Password already exists</string>
+    <string name="registred_successfuly_toast">registered successfully</string>
+    <string name="no_matching_passwords_toast">Not matching passwords</string>
+    <string name="invalid_email_address_toast">Invalid email address</string>
+    <string name="fill_all_fields_toast">Please fill all the fields</string>
+    <string name="login_successfull_toast">Login successful</string>
+    <string name="password_incorrect_toast">Password incorrect</string>
+    <string name="user_name_doesnt_exists_toast">Username doesn\'t exist</string>
+    <string name="this_field_is_empty_error">This field is empty.</string>
+    <string name="profile_changed_toast">Profile changed</string>
+    <string name="title">Title:</string>
+    <string name="delete_note">DELETE</string>
+    <string name="save_note">Save</string>
+    <string name="forgot_your_password_check_box">Forgot your password</string>
+
+
+    <string-array name="list_items">
+        <item>Home</item>
+        <item>Upcoming Movies</item>
+        <item>Profile Settings</item>
+        <item>Log Out</item>
+    </string-array>
+    <string-array name="list_subitems">
+        <item>Default page</item>
+        <item>Check the latest movies</item>
+        <item>Change profile settings</item>
+        <item>Exit account </item>
+    </string-array>
+
+</resources>

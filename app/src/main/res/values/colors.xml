@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a3c3e</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#cfc9c9</color>
+    <color name="mainBackground">#25AE90</color>
+    <color name="registerBackground">#1a1e2b</color>
+    <color name="editTextBackground">#404751</color>
+    <color name="navigationBackground">#3a3c3e</color>
+    <color name="movieItemBackground">#bd636464</color>
+    <color name="pickedGray">#3D3D3D</color>
+</resources>
