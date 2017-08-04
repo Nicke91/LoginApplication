@@ -1,15 +1,26 @@
-<RelativeLayout android:layout_width="match_parent"
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@drawable/whiteish"
-    android:padding="10dp">
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:background="@color/movieItemBackground"
+        android:paddingTop="10dp">
+
+
 
     <LinearLayout
         android:id="@+id/row1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/movieItemBackground"
         android:padding="10dp">
 
         <TextView
@@ -31,18 +42,15 @@
 
     </LinearLayout>
     <View
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="1dp"
-        android:background="@android:color/black"
-        android:layout_below="@+id/row1"/>
+        android:background="@android:color/black" />
 
     <LinearLayout
         android:id="@+id/row2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/row1"
-        android:background="@color/movieItemBackground"
         android:padding="10dp">
 
         <TextView
@@ -66,16 +74,13 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@android:color/black"
-        android:layout_below="@+id/row2"/>
+        android:background="@android:color/black" />
 
     <LinearLayout
         android:id="@+id/row3"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/row2"
-        android:background="@color/movieItemBackground"
         android:padding="10dp">
 
         <TextView
@@ -97,18 +102,15 @@
 
     </LinearLayout>
     <View
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="1dp"
-        android:background="@android:color/black"
-        android:layout_below="@+id/row3"/>
+        android:background="@android:color/black" />
 
     <LinearLayout
         android:id="@+id/row4"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/row3"
-        android:background="@color/movieItemBackground"
         android:padding="10dp">
 
         <TextView
@@ -132,26 +134,32 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@android:color/black"
-        android:layout_below="@+id/row4"/>
+        android:background="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+
 
    <SlidingDrawer
        android:id="@+id/settingsDrawer"
        android:layout_width="match_parent"
-       android:layout_height="300dp"
-       android:orientation="vertical"
-       android:layout_below="@+id/row4"
-       android:layout_alignParentBottom="true"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
        android:content="@+id/drawerContent"
-       android:handle="@+id/slideButton"
-       android:layout_marginTop="20dp">
+       android:handle="@+id/slideButton">
 
        <Button
            android:id="@+id/slideButton"
-           android:layout_width="match_parent"
+           android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:background="@color/navigationBackground"
            android:text="@string/change_settings_button"
+           android:rotation="-90"
            android:textColor="@android:color/white"/>
 
        <LinearLayout
@@ -210,4 +218,6 @@
 
    </SlidingDrawer>
 
-</RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
